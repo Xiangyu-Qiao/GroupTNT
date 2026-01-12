@@ -3,7 +3,6 @@
 Bioeng TSN App is a web application based on Spring Boot, designed to provide personnel profile queries, course queries, and intelligent AI Q&A services for Imperial College London.
 
 ## 🚀 Features
-
 - **People Search**: 
   - Support searching personnel profiles by name.
   - Display detailed information including address, contact number, etc.
