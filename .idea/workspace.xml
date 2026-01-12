@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="323a1bed-b677-40c8-9c2e-950f32524324" name="更改" comment="chore(ide): 配置IDE项目设置和忽略规则&#10;&#10;- 更新.gitignore文件，移除对.idea目录的整体忽略&#10;- 添加.idea目录下的具体忽略文件配置&#10;- 创建Apifox上传器项目设置文件&#10;- 配置编译器注解处理和Lombok支持&#10;- 设置数据源连接配置(postgres本地和远程)&#10;- 配置文件编码">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="323a1bed-b677-40c8-9c2e-950f32524324" name="更改" comment="chore(ide): 配置IDE项目设置和忽略规则&#10;&#10;- 更新.gitignore文件，移除对.idea目录的整体忽略&#10;- 添加.idea目录下的具体忽略文件配置&#10;- 创建Apifox上传器项目设置文件&#10;- 配置编译器注解处理和Lombok支持&#10;- 设置数据源连接配置(postgres本地和远程)&#10;- 配置文件编码为UTF-8&#10;- 设置Maven仓库配置&#10;- 配置项目基础设置和JDK版本&#10;- 创建检查配置文件&#10;- 添加MyBatisX代码生成模板配置&#10;- 配置VCS版本控制系统映射">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +184,7 @@
       <workItem from="1768177335528" duration="454000" />
       <workItem from="1768214738997" duration="34000" />
       <workItem from="1768233054990" duration="2337000" />
-      <workItem from="1768235403161" duration="22000" />
+      <workItem from="1768235403161" duration="128000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 初始化生物工程课程查询系统&#10;&#10;- 添加 .gitattributes 和 .gitignore 配置文件&#10;- 创建 Addresses 实体类及其对应的 Mapper、Service 和 XML 配置&#10;- 创建 CourseModules 实体类及其对应的 Mapper、Service 和 XML 配置&#10;- 创建 Courses 实体类及其对应的 Mapper、Service 和 XML 配置&#10;- 实现 CoursesController 提供课程名称搜索功能&#10;- 创建 CourseDetailDTO 数据传输对象用于返回课程详细信息&#10;- 配置 application.yml 数据库连接和 DeepSeek API 设置&#10;- 实现 AI 聊天功能的 AiController 控制器&#10;- 添加项目启动类 BioengTsnAppApplication&#10;- 创建单元测试类 BioengTsnApplicationTests">
       <option name="closed" value="true" />
@@ -523,7 +522,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768234864723</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="chore(ide): 配置IDE项目设置和忽略规则&#10;&#10;- 更新.gitignore文件，移除对.idea目录的整体忽略&#10;- 添加.idea目录下的具体忽略文件配置&#10;- 创建Apifox上传器项目设置文件&#10;- 配置编译器注解处理和Lombok支持&#10;- 设置数据源连接配置(postgres本地和远程)&#10;- 配置文件编码为UTF-8&#10;- 设置Maven仓库配置&#10;- 配置项目基础设置和JDK版本&#10;- 创建检查配置文件&#10;- 添加MyBatisX代码生成模板配置&#10;- 配置VCS版本控制系统映射">
+      <option name="closed" value="true" />
+      <created>1768235473660</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1768235473660</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -560,7 +567,8 @@
     <MESSAGE value="final2" />
     <MESSAGE value="chore(build): 更新项目构建配置并移除target目录&#10;&#10;- 从.gitignore中移除target目录忽略规则&#10;- 添加AddressesMapper.xml映射文件配置&#10;- 添加CourseModulesMapper.xml和CoursesMapper.xml映射文件配置&#10;- 添加PhoneNumbersMapper.xml映射文件配置&#10;- 配置application.yml、applicationLocal.yml和applicationWeb.yml应用配置文件&#10;- 更新Maven编译状态和输入文件列表&#10;- 添加单元测试报告配置" />
     <MESSAGE value="chore(ide): 配置IDE项目设置和忽略规则&#10;&#10;- 更新.gitignore文件，移除对.idea目录的整体忽略&#10;- 添加.idea目录下的具体忽略文件配置&#10;- 创建Apifox上传器项目设置文件&#10;- 配置编译器注解处理和Lombok支持&#10;- 设置数据源连接配置(postgres本地和远程)&#10;- 配置文件编码" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore(ide): 配置IDE项目设置和忽略规则&#10;&#10;- 更新.gitignore文件，移除对.idea目录的整体忽略&#10;- 添加.idea目录下的具体忽略文件配置&#10;- 创建Apifox上传器项目设置文件&#10;- 配置编译器注解处理和Lombok支持&#10;- 设置数据源连接配置(postgres本地和远程)&#10;- 配置文件编码" />
+    <MESSAGE value="chore(ide): 配置IDE项目设置和忽略规则&#10;&#10;- 更新.gitignore文件，移除对.idea目录的整体忽略&#10;- 添加.idea目录下的具体忽略文件配置&#10;- 创建Apifox上传器项目设置文件&#10;- 配置编译器注解处理和Lombok支持&#10;- 设置数据源连接配置(postgres本地和远程)&#10;- 配置文件编码为UTF-8&#10;- 设置Maven仓库配置&#10;- 配置项目基础设置和JDK版本&#10;- 创建检查配置文件&#10;- 添加MyBatisX代码生成模板配置&#10;- 配置VCS版本控制系统映射" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore(ide): 配置IDE项目设置和忽略规则&#10;&#10;- 更新.gitignore文件，移除对.idea目录的整体忽略&#10;- 添加.idea目录下的具体忽略文件配置&#10;- 创建Apifox上传器项目设置文件&#10;- 配置编译器注解处理和Lombok支持&#10;- 设置数据源连接配置(postgres本地和远程)&#10;- 配置文件编码为UTF-8&#10;- 设置Maven仓库配置&#10;- 配置项目基础设置和JDK版本&#10;- 创建检查配置文件&#10;- 添加MyBatisX代码生成模板配置&#10;- 配置VCS版本控制系统映射" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
