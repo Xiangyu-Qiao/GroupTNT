@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="323a1bed-b677-40c8-9c2e-950f32524324" name="更改" comment="chore(ide): 配置IDE项目设置和忽略规则&#10;&#10;- 更新.gitignore文件，移除对.idea目录的整体忽略&#10;- 添加.idea目录下的具体忽略文件配置&#10;- 创建Apifox上传器项目设置文件&#10;- 配置编译器注解处理和Lombok支持&#10;- 设置数据源连接配置(postgres本地和远程)&#10;- 配置文件编码">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="UML Class" />
+        <option value="UML Use Case" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="36074e9d-78a2-4bdd-a066-87e788f6467a" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="37hsj8FPIOO0auNs8ZPp6S1nrJi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "DefaultPlantUmlFileTemplate": "UML Use Case",
+    "JUnit.BioengTsnAppApplicationTests.executor": "Run",
+    "Maven.bioeng-tsn-app [clean].executor": "Run",
+    "Maven.bioeng-tsn-app [compile].executor": "Run",
+    "Maven.bioeng-tsn-app [deploy].executor": "Run",
+    "Maven.bioeng-tsn-app [package].executor": "Run",
+    "Maven.bioeng-tsn-app [verify].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.BioengTsnAppApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/33882/Desktop/aaa/GroupTNT",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "项目",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="Push.Settings">
+    <force-push-targets>
+      <force-push-target remote-path="origin" branch="zheng" />
+    </force-push-targets>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Code\bioeng-tsn-app\lib" />
+      <recent name="F:\Code\bioeng-tsn-app\src\main\resources" />
+      <recent name="F:\Code\bioeng-tsn-app\build\libs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Code\Project\bioeng-tsn-app\lib" />
+      <recent name="F:\Code\bioeng-tsn-app\lib" />
+      <recent name="F:\Code\bioeng-tsn-app\build\libs" />
+      <recent name="F:\Code\bioeng-tsn-app\sql" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.BioengTsnAppApplication">
+    <configuration name="BioengTsnAppApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bioeng-tsn-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zds.bioengtsnapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zds.bioengtsnapp" />
+      <option name="MAIN_CLASS_NAME" value="com.zds.bioengtsnapp.BioengTsnAppApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BioengTsnAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="bioeng-tsn-app" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zds.bioengtsnapp.BioengTsnAppApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BioengTsnAppApplicationTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="323a1bed-b677-40c8-9c2e-950f32524324" name="更改" comment="" />
+      <created>1767366769500</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1767366769500</updated>
+      <workItem from="1767366770746" duration="17000" />
+      <workItem from="1767366820321" duration="723000" />
+      <workItem from="1767367561235" duration="2321000" />
+      <workItem from="1767369901111" duration="5830000" />
+      <workItem from="1767377502056" duration="283000" />
+      <workItem from="1767377954924" duration="951000" />
+      <workItem from="1767446496986" duration="3089000" />
+      <workItem from="1767485744842" duration="5282000" />
+      <workItem from="1767512671464" duration="4821000" />
+      <workItem from="1767522590832" duration="1941000" />
+      <workItem from="1767526033722" duration="5469000" />
+      <workItem from="1767540840487" duration="295000" />
+      <workItem from="1767541172570" duration="15170000" />
+      <workItem from="1767580592086" duration="8319000" />
+      <workItem from="1767602919494" duration="397000" />
+      <workItem from="1767603398895" duration="700000" />
+      <workItem from="1767604510896" duration="1518000" />
+      <workItem from="1767612888318" duration="1640000" />
+      <workItem from="1767614680503" duration="3502000" />
+      <workItem from="1767618389378" duration="5524000" />
+      <workItem from="1767627446246" duration="12000" />
+      <workItem from="1767882797461" duration="5931000" />
+      <workItem from="1767918266914" duration="635000" />
+      <workItem from="1767918972384" duration="2452000" />
+      <workItem from="1767929212428" duration="1092000" />
+      <workItem from="1767930327910" duration="1244000" />
+      <workItem from="1767935145853" duration="99000" />
+      <workItem from="1767935252528" duration="127000" />
+      <workItem from="1767937728632" duration="28000" />
+      <workItem from="1767937809977" duration="4793000" />
+      <workItem from="1767943672034" duration="9000" />
+      <workItem from="1768177335528" duration="454000" />
+      <workItem from="1768214738997" duration="34000" />
+      <workItem from="1768233054990" duration="2337000" />
+      <workItem from="1768235403161" duration="22000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat: 初始化生物工程课程查询系统&#10;&#10;- 添加 .gitattributes 和 .gitignore 配置文件&#10;- 创建 Addresses 实体类及其对应的 Mapper、Service 和 XML 配置&#10;- 创建 CourseModules 实体类及其对应的 Mapper、Service 和 XML 配置&#10;- 创建 Courses 实体类及其对应的 Mapper、Service 和 XML 配置&#10;- 实现 CoursesController 提供课程名称搜索功能&#10;- 创建 CourseDetailDTO 数据传输对象用于返回课程详细信息&#10;- 配置 application.yml 数据库连接和 DeepSeek API 设置&#10;- 实现 AI 聊天功能的 AiController 控制器&#10;- 添加项目启动类 BioengTsnAppApplication&#10;- 创建单元测试类 BioengTsnApplicationTests">
+      <option name="closed" value="true" />
+      <created>1767378006563</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1767378006563</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: 初始化生物工程课程查询系统&#10;&#10;- 添加 .gitattributes 和 .gitignore 配置文件&#10;- 创建 Addresses 实体类及其对应的 Mapper、Service 和 XML 配置&#10;- 创建 CourseModules 实体类及其对应的 Mapper、Service 和 XML 配置&#10;- 创建 Courses 实体类及其对应的 Mapper、Service 和 XML 配置&#10;- 实现 CoursesController 提供课程名称搜索功能&#10;- 创建 CourseDetailDTO 数据传输对象用于返回课程详细信息&#10;- 配置 application.yml 数据库连接和 DeepSeek API 设置&#10;- 实现 AI 聊天功能的 AiController 控制器&#10;- 添加项目启动类 BioengTsnAppApplication&#10;- 创建单元测试类 BioengTsnApplicationTests">
+      <option name="closed" value="true" />
+      <created>1767485832786</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1767485832786</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: 初始化生物工程课程查询系统&#10;&#10;- 添加 .gitattributes 和 .gitignore 配置文件&#10;- 创建 Addresses 实体类及其对应的 Mapper、Service 和 XML 配置&#10;- 创建 CourseModules 实体类及其对应的 Mapper、Service 和 XML 配置&#10;- 创建 Courses 实体类及其对应的 Mapper、Service 和 XML 配置&#10;- 实现 CoursesController 提供课程名称搜索功能&#10;- 创建 CourseDetailDTO 数据传输对象用于返回课程详细信息&#10;- 配置 application.yml 数据库连接和 DeepSeek API 设置&#10;- 实现 AI 聊天功能的 AiController 控制器&#10;- 添加项目启动类 BioengTsnAppApplication&#10;- 创建单元测试类 BioengTsnApplicationTests">
+      <option name="closed" value="true" />
+      <created>1767513275669</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1767513275669</updated>
+    </task>
+    <task id="LOCAL-00004" summary="1">
+      <option name="closed" value="true" />
+      <created>1767517058302</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1767517058302</updated>
+    </task>
+    <task id="LOCAL-00005" summary="1">
+      <option name="closed" value="true" />
+      <created>1767527996788</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1767527996788</updated>
+    </task>
+    <task id="LOCAL-00006" summary="1">
+      <option name="closed" value="true" />
+      <created>1767528389769</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1767528389769</updated>
+    </task>
+    <task id="LOCAL-00007" summary="1">
+      <option name="closed" value="true" />
+      <created>1767528580924</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1767528580924</updated>
+    </task>
+    <task id="LOCAL-00008" summary="1">
+      <option name="closed" value="true" />
+      <created>1767532145730</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1767532145730</updated>
+    </task>
+    <task id="LOCAL-00009" summary="1">
+      <option name="closed" value="true" />
+      <created>1767532376554</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1767532376554</updated>
+    </task>
+    <task id="LOCAL-00010" summary="12">
+      <option name="closed" value="true" />
+      <created>1767540904303</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1767540904303</updated>
+    </task>
+    <task id="LOCAL-00011" summary="12">
+      <option name="closed" value="true" />
+      <created>1767541965899</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1767541965899</updated>
+    </task>
+    <task id="LOCAL-00012" summary="12">
+      <option name="closed" value="true" />
+      <created>1767542445423</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1767542445423</updated>
+    </task>
+    <task id="LOCAL-00013" summary="12">
+      <option name="closed" value="true" />
+      <created>1767544253110</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1767544253110</updated>
+    </task>
+    <task id="LOCAL-00014" summary="123">
+      <option name="closed" value="true" />
+      <created>1767545707732</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1767545707732</updated>
+    </task>
+    <task id="LOCAL-00015" summary="1234">
+      <option name="closed" value="true" />
+      <created>1767587431253</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1767587431253</updated>
+    </task>
+    <task id="LOCAL-00016" summary="1234">
+      <option name="closed" value="true" />
+      <created>1767587553131</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1767587553131</updated>
+    </task>
+    <task id="LOCAL-00017" summary="12345">
+      <option name="closed" value="true" />
+      <created>1767588271189</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1767588271189</updated>
+    </task>
+    <task id="LOCAL-00018" summary="模糊查询">
+      <option name="closed" value="true" />
+      <created>1767603306493</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1767603306493</updated>
+    </task>
+    <task id="LOCAL-00019" summary="模糊查询">
+      <option name="closed" value="true" />
+      <created>1767604589417</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1767604589417</updated>
+    </task>
+    <task id="LOCAL-00020" summary="模糊查询">
+      <option name="closed" value="true" />
+      <created>1767606025506</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1767606025506</updated>
+    </task>
+    <task id="LOCAL-00021" summary="降级java8">
+      <option name="closed" value="true" />
+      <created>1767613160818</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1767613160818</updated>
+    </task>
+    <task id="LOCAL-00022" summary="降级java8">
+      <option name="closed" value="true" />
+      <created>1767614474225</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1767614474225</updated>
+    </task>
+    <task id="LOCAL-00023" summary="降级java82">
+      <option name="closed" value="true" />
+      <created>1767616632301</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1767616632301</updated>
+    </task>
+    <task id="LOCAL-00024" summary="降级java82">
+      <option name="closed" value="true" />
+      <created>1767616739699</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1767616739699</updated>
+    </task>
+    <task id="LOCAL-00025" summary="降级java82">
+      <option name="closed" value="true" />
+      <created>1767622774652</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1767622774652</updated>
+    </task>
+    <task id="LOCAL-00026" summary="降级java83">
+      <option name="closed" value="true" />
+      <created>1767624047074</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1767624047074</updated>
+    </task>
+    <task id="LOCAL-00027" summary="降级java83">
+      <option name="closed" value="true" />
+      <created>1767624191443</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1767624191443</updated>
+    </task>
+    <task id="LOCAL-00028" summary="降级java83">
+      <option name="closed" value="true" />
+      <created>1767624226486</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1767624226486</updated>
+    </task>
+    <task id="LOCAL-00029" summary="降级java83">
+      <option name="closed" value="true" />
+      <created>1767624326450</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1767624326450</updated>
+    </task>
+    <task id="LOCAL-00030" summary="降级java83">
+      <option name="closed" value="true" />
+      <created>1767624379358</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1767624379358</updated>
+    </task>
+    <task id="LOCAL-00031" summary="降级java83">
+      <option name="closed" value="true" />
+      <created>1767625135478</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1767625135478</updated>
+    </task>
+    <task id="LOCAL-00032" summary="降级java84">
+      <option name="closed" value="true" />
+      <created>1767625757284</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1767625757284</updated>
+    </task>
+    <task id="LOCAL-00033" summary="降级java84">
+      <option name="closed" value="true" />
+      <created>1767883072840</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1767883072840</updated>
+    </task>
+    <task id="LOCAL-00034" summary="修改sys">
+      <option name="closed" value="true" />
+      <created>1767883964860</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1767883964860</updated>
+    </task>
+    <task id="LOCAL-00035" summary="sql">
+      <option name="closed" value="true" />
+      <created>1767919866894</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1767919866894</updated>
+    </task>
+    <task id="LOCAL-00036" summary="sql2">
+      <option name="closed" value="true" />
+      <created>1767929545019</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1767929545019</updated>
+    </task>
+    <task id="LOCAL-00037" summary="final">
+      <option name="closed" value="true" />
+      <created>1767941435686</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1767941435686</updated>
+    </task>
+    <task id="LOCAL-00038" summary="final2">
+      <option name="closed" value="true" />
+      <created>1768177605813</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1768177605813</updated>
+    </task>
+    <task id="LOCAL-00039" summary="final2">
+      <option name="closed" value="true" />
+      <created>1768233200584</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1768233200584</updated>
+    </task>
+    <task id="LOCAL-00040" summary="final2">
+      <option name="closed" value="true" />
+      <created>1768233325165</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1768233325165</updated>
+    </task>
+    <task id="LOCAL-00041" summary="chore(build): 更新项目构建配置并移除target目录&#10;&#10;- 从.gitignore中移除target目录忽略规则&#10;- 添加AddressesMapper.xml映射文件配置&#10;- 添加CourseModulesMapper.xml和CoursesMapper.xml映射文件配置&#10;- 添加PhoneNumbersMapper.xml映射文件配置&#10;- 配置application.yml、applicationLocal.yml和applicationWeb.yml应用配置文件&#10;- 更新Maven编译状态和输入文件列表&#10;- 添加单元测试报告配置">
+      <option name="closed" value="true" />
+      <created>1768233876180</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1768233876180</updated>
+    </task>
+    <task id="LOCAL-00042" summary="chore(ide): 配置IDE项目设置和忽略规则&#10;&#10;- 更新.gitignore文件，移除对.idea目录的整体忽略&#10;- 添加.idea目录下的具体忽略文件配置&#10;- 创建Apifox上传器项目设置文件&#10;- 配置编译器注解处理和Lombok支持&#10;- 设置数据源连接配置(postgres本地和远程)&#10;- 配置文件编码为UTF-8&#10;- 设置Maven仓库配置&#10;- 配置项目基础设置和JDK版本&#10;- 创建检查配置文件&#10;- 添加MyBatisX代码生成模板配置&#10;- 配置VCS版本控制系统映射">
+      <option name="closed" value="true" />
+      <created>1768234864723</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1768234864723</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="feat: 初始化生物工程课程查询系统&#10;&#10;- 添加 .gitattributes 和 .gitignore 配置文件&#10;- 创建 Addresses 实体类及其对应的 Mapper、Service 和 XML 配置&#10;- 创建 CourseModules 实体类及其对应的 Mapper、Service 和 XML 配置&#10;- 创建 Courses 实体类及其对应的 Mapper、Service 和 XML 配置&#10;- 实现 CoursesController 提供课程名称搜索功能&#10;- 创建 CourseDetailDTO 数据传输对象用于返回课程详细信息&#10;- 配置 application.yml 数据库连接和 DeepSeek API 设置&#10;- 实现 AI 聊天功能的 AiController 控制器&#10;- 添加项目启动类 BioengTsnAppApplication&#10;- 创建单元测试类 BioengTsnApplicationTests" />
+    <MESSAGE value="1" />
+    <MESSAGE value="12" />
+    <MESSAGE value="123" />
+    <MESSAGE value="1234" />
+    <MESSAGE value="12345" />
+    <MESSAGE value="模糊查询" />
+    <MESSAGE value="降级java8" />
+    <MESSAGE value="降级java82" />
+    <MESSAGE value="降级java83" />
+    <MESSAGE value="降级java84" />
+    <MESSAGE value="修改sys" />
+    <MESSAGE value="sql" />
+    <MESSAGE value="sql2" />
+    <MESSAGE value="final" />
+    <MESSAGE value="final2" />
+    <MESSAGE value="chore(build): 更新项目构建配置并移除target目录&#10;&#10;- 从.gitignore中移除target目录忽略规则&#10;- 添加AddressesMapper.xml映射文件配置&#10;- 添加CourseModulesMapper.xml和CoursesMapper.xml映射文件配置&#10;- 添加PhoneNumbersMapper.xml映射文件配置&#10;- 配置application.yml、applicationLocal.yml和applicationWeb.yml应用配置文件&#10;- 更新Maven编译状态和输入文件列表&#10;- 添加单元测试报告配置" />
+    <MESSAGE value="chore(ide): 配置IDE项目设置和忽略规则&#10;&#10;- 更新.gitignore文件，移除对.idea目录的整体忽略&#10;- 添加.idea目录下的具体忽略文件配置&#10;- 创建Apifox上传器项目设置文件&#10;- 配置编译器注解处理和Lombok支持&#10;- 设置数据源连接配置(postgres本地和远程)&#10;- 配置文件编码" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore(ide): 配置IDE项目设置和忽略规则&#10;&#10;- 更新.gitignore文件，移除对.idea目录的整体忽略&#10;- 添加.idea目录下的具体忽略文件配置&#10;- 创建Apifox上传器项目设置文件&#10;- 配置编译器注解处理和Lombok支持&#10;- 设置数据源连接配置(postgres本地和远程)&#10;- 配置文件编码" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
