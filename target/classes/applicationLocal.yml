@@ -3,14 +3,14 @@ spring:
     name: bioeng-tsn-app
 
   main:
-    # 同时依赖 web + webflux（为了 WebClient / Mono）时，强制以 Servlet(Tomcat) 模式启动
+    # When depending on both web + webflux (for WebClient/Mono), force startup in Servlet(Tomcat) mode
     web-application-type: servlet
-    # 允许 Bean 定义覆盖（防止 WebFlux 自动配置冲突）
+    # Allow Bean definition override (to prevent WebFlux auto-configuration conflicts)
     allow-bean-definition-overriding: true
 
   # Database Configuration (PostgreSQL)
-  # Tsuru 环境变量：PGHOST, PGPORT, PGDATABASE, PGUSER, PGPASSWORD
-  # 本地开发时使用默认值
+  # Tsuru environment variables: PGHOST, PGPORT, PGDATABASE, PGUSER, PGPASSWORD
+  # Use default values for local development
   datasource:
     url: jdbc:postgresql://localhost:5433/postgres
     username: postgres
@@ -21,7 +21,7 @@ spring:
   transaction:
     default-timeout: 30
 
-  # 禁用自动执行 SQL 初始化脚本（防止启动时因脚本失败而崩溃）
+  # Disable automatic execution of SQL initialization scripts (to prevent crashes due to script failures during startup)
   sql:
     init:
       mode: never

@@ -11,7 +11,7 @@
     <groupId>com.zds</groupId>
     <artifactId>bioeng-tsn-app</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <name>bioeng-tsn-app</name>
     <description>bioeng-tsn-app</description>
 
@@ -36,6 +36,16 @@
             <artifactId>spring-boot-starter-tomcat</artifactId>
             <scope>provided</scope>
         </dependency>
+        
+        <!-- Servlet API -->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>4.0.1</version>
+            <scope>provided</scope>
+        </dependency>
+
+
 
         <!-- MyBatis Plus -->
         <dependency>

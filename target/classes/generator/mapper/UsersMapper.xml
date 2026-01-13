@@ -47,7 +47,7 @@
         email_address,created_at,updated_at
     </sql>
 
-    <!-- 根据全名查询用户详细信息（包含手机和地址） -->
+
     <select id="getUserDetailsByFullName" resultMap="UserDetailResultMap">
         SELECT
             u.id AS user_id,

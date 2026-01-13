@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="323a1bed-b677-40c8-9c2e-950f32524324" name="更改" comment="feat(ui): 添加生物工程课程查询系统前端界面&#10;&#10;- 创建主页面index.html，包含课程模块和人员搜索功能&#10;- 实现响应式网格布局和分页控制组件&#10;- 添加AI聊天助手功能，集成DeepSeek API交互&#10;- 设计学术风格的用户界面，使用海军蓝配色方案&#10;- 实现课程搜索结果展示和详细信息查看功能&#10;- 添加用户搜索结果卡片和联系信息面板&#10;- 集成心跳检测模态框显示系统状态信息&#10;- 实现可拖拽的AI聊天窗口和Markdown消息渲染&#10;- 添加课程模块分类展示和部门联系信息&#10;- 实现FontAwesome图标集成和移动端适配样式">
+    <list default="true" id="323a1bed-b677-40c8-9c2e-950f32524324" name="更改" comment="feat(core): 添加基础配置文件和前端界面&#10;&#10;- 新增 AddressesMapper.xml 映射文件&#10;- 添加 application.yml 主配置文件&#10;- 添加 applicationLocal.yml 本地环境配置&#10;- 添加 applicationWeb.yml Web环境配置&#10;- 新增 CourseModulesMapper.xml 课程模块映射文件&#10;- 新增 CoursesMapper.xml 课程映射文件&#10;- 添加 index.html 静态前端页面文件">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -186,7 +186,8 @@
       <workItem from="1768214738997" duration="34000" />
       <workItem from="1768233054990" duration="2337000" />
       <workItem from="1768235403161" duration="368000" />
-      <workItem from="1768235942079" duration="321000" />
+      <workItem from="1768235942079" duration="515000" />
+      <workItem from="1768237196202" duration="20000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 初始化生物工程课程查询系统&#10;&#10;- 添加 .gitattributes 和 .gitignore 配置文件&#10;- 创建 Addresses 实体类及其对应的 Mapper、Service 和 XML 配置&#10;- 创建 CourseModules 实体类及其对应的 Mapper、Service 和 XML 配置&#10;- 创建 Courses 实体类及其对应的 Mapper、Service 和 XML 配置&#10;- 实现 CoursesController 提供课程名称搜索功能&#10;- 创建 CourseDetailDTO 数据传输对象用于返回课程详细信息&#10;- 配置 application.yml 数据库连接和 DeepSeek API 设置&#10;- 实现 AI 聊天功能的 AiController 控制器&#10;- 添加项目启动类 BioengTsnAppApplication&#10;- 创建单元测试类 BioengTsnApplicationTests">
       <option name="closed" value="true" />
@@ -540,7 +541,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768235684863</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="feat(core): 添加基础配置文件和前端界面&#10;&#10;- 新增 AddressesMapper.xml 映射文件&#10;- 添加 application.yml 主配置文件&#10;- 添加 applicationLocal.yml 本地环境配置&#10;- 添加 applicationWeb.yml Web环境配置&#10;- 新增 CourseModulesMapper.xml 课程模块映射文件&#10;- 新增 CoursesMapper.xml 课程映射文件&#10;- 添加 index.html 静态前端页面文件">
+      <option name="closed" value="true" />
+      <created>1768236380700</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1768236380700</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -580,7 +589,8 @@
     <MESSAGE value="chore(ide): 配置IDE项目设置和忽略规则&#10;&#10;- 更新.gitignore文件，移除对.idea目录的整体忽略&#10;- 添加.idea目录下的具体忽略文件配置&#10;- 创建Apifox上传器项目设置文件&#10;- 配置编译器注解处理和Lombok支持&#10;- 设置数据源连接配置(postgres本地和远程)&#10;- 配置文件编码为UTF-8&#10;- 设置Maven仓库配置&#10;- 配置项目基础设置和JDK版本&#10;- 创建检查配置文件&#10;- 添加MyBatisX代码生成模板配置&#10;- 配置VCS版本控制系统映射" />
     <MESSAGE value="feat(ui): 添加生物工程课程查询系统前端界面&#10;&#10;- 创建主页面index.html，包含课程模块和人员搜索功能&#10;- 实现响应式网格布局和分页控制组件&#10;- 添加AI聊天助手功能，集成DeepSeek API交互&#10;- 设计学术风格的用户界面，使用海军蓝配色方案&#10;- 实现课程搜索结果展示和详细信息查看" />
     <MESSAGE value="feat(ui): 添加生物工程课程查询系统前端界面&#10;&#10;- 创建主页面index.html，包含课程模块和人员搜索功能&#10;- 实现响应式网格布局和分页控制组件&#10;- 添加AI聊天助手功能，集成DeepSeek API交互&#10;- 设计学术风格的用户界面，使用海军蓝配色方案&#10;- 实现课程搜索结果展示和详细信息查看功能&#10;- 添加用户搜索结果卡片和联系信息面板&#10;- 集成心跳检测模态框显示系统状态信息&#10;- 实现可拖拽的AI聊天窗口和Markdown消息渲染&#10;- 添加课程模块分类展示和部门联系信息&#10;- 实现FontAwesome图标集成和移动端适配样式" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(ui): 添加生物工程课程查询系统前端界面&#10;&#10;- 创建主页面index.html，包含课程模块和人员搜索功能&#10;- 实现响应式网格布局和分页控制组件&#10;- 添加AI聊天助手功能，集成DeepSeek API交互&#10;- 设计学术风格的用户界面，使用海军蓝配色方案&#10;- 实现课程搜索结果展示和详细信息查看功能&#10;- 添加用户搜索结果卡片和联系信息面板&#10;- 集成心跳检测模态框显示系统状态信息&#10;- 实现可拖拽的AI聊天窗口和Markdown消息渲染&#10;- 添加课程模块分类展示和部门联系信息&#10;- 实现FontAwesome图标集成和移动端适配样式" />
+    <MESSAGE value="feat(core): 添加基础配置文件和前端界面&#10;&#10;- 新增 AddressesMapper.xml 映射文件&#10;- 添加 application.yml 主配置文件&#10;- 添加 applicationLocal.yml 本地环境配置&#10;- 添加 applicationWeb.yml Web环境配置&#10;- 新增 CourseModulesMapper.xml 课程模块映射文件&#10;- 新增 CoursesMapper.xml 课程映射文件&#10;- 添加 index.html 静态前端页面文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(core): 添加基础配置文件和前端界面&#10;&#10;- 新增 AddressesMapper.xml 映射文件&#10;- 添加 application.yml 主配置文件&#10;- 添加 applicationLocal.yml 本地环境配置&#10;- 添加 applicationWeb.yml Web环境配置&#10;- 新增 CourseModulesMapper.xml 课程模块映射文件&#10;- 新增 CoursesMapper.xml 课程映射文件&#10;- 添加 index.html 静态前端页面文件" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
